@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "lsi-stroke"
+version = "0.1.0"
+description = "Stroke Risk Calculator Project"
+authors = [
+    "Chiara Alcantara <chiara.alcantara16@gmail.com>",
+    "Franklin Ramirez <franklin.ramirez6111@gmail.com>",
+    "Helena Xu <blah@blah.com>"
+]
+license = "cc-by-nc"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+scikit-learn = "^1.2.2"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+dash = "^2.9.3"
+seaborn = "^0.12.2"
+tqdm = "^4.65.0"
+pyarrow = "^11.0.0"
+imbalanced-learn = "^0.10.1"
+jupyter-dash = "^0.4.2"
+plotly = "^5.14.1"
+dash-bootstrap-components = "^1.4.1"
+papermill = "^2.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+black = {extras = ["jupyter"], version = "^23.3.0"}
+isort = "^5.12.0"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
