@@ -27,7 +27,10 @@ All models and data transformations are contained in the src/notebooks folder. T
 
 ## Examples
 
-tktk examples tktk
+To use the calculator, you are required to enter some information about your health conditions/measures. Then, select "Calculate" at the bottom to run our model and be produced with a binary yes or no response. Select "Reset" to reset the calculator inputs. Refer to the gif below: 
+
+![](BorealisAI.gif)
+
 
 ## Disclaimers
 
