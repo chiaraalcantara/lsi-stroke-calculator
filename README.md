@@ -1,6 +1,6 @@
 # Tria-nauts Stroke Risk Calculator
 
-Welcome to Team Tria-nauts' Stroke Risk Calculator! Our team has built this tool to predict a user's risk of developing stroke disease based on the likelihood that someone similar to you has had a stroke. Our Machine Learning model was trained using approximately 430,000 survey responses from U.S. Residents collected by The CDC BRFSS data. This calculator utilizes carefully picked out parameters ranging from factors such as BMI to smoking status, and aims to produce a binary response as to whether an individual is at risk for a stroke, with an accuracy of approximately 93%. 
+Welcome to Team Tria-nauts' Stroke Risk Calculator! Our team has built this tool to predict a user's risk of developing stroke disease based on the likelihood that someone similar to you has had a stroke. Our Machine Learning model was trained using approximately 430,000 survey responses from U.S. Residents collected by The CDC BRFSS data. This calculator utilizes carefully picked out parameters ranging from factors such as BMI to smoking status, and aims to produce a binary response as to whether an individual is at risk for a stroke, with an accuracy of approximately 93%! 
 
 ## Requirements
 
